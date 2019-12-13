@@ -1,0 +1,584 @@
+body{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.08em;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-image: url("images/imm.png");
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.logo{
+    width: 200px; 
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.menu{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: row;
+}
+.navbar {
+    flex-basis: 90%;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 14px;
+    padding: 0;
+}
+.li1 {
+    float: left;
+    color: white;
+    padding: 10px 10px 5px 10px;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+}
+.a1:hover{
+    color: #038DFE ;
+}
+
+.btn{
+    flex-basis: 10%;
+    order: 1;
+}
+
+.inscription_navbar{
+    margin-top: 0px;
+    float: right;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: #038DFE;
+    color : white;
+    border: none;
+
+}
+.decouvrir {
+    padding: 15px 40px 15px 40px;
+    margin-left: 120px;
+    border-radius: 30px;
+    background-color: #038DFE;
+    color : white;
+    border: none;
+
+}
+.header2{
+    margin-top: 80px;   
+}
+.header2 p{
+  color: white;
+  margin-left: 100px;
+}
+.imgsafi{
+    margin-left: 50%;
+    width: 50%;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.localisation{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+
+}
+.titresafi{
+    font-size: 30px;
+    font-family: Montserrat;
+}
+.nvlleecole{
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+.safi2{
+    margin-right: 50%;
+    width: 50%;
+    height: 500px;
+}
+.titre {
+    margin-top: 100px;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+.description {
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin: 30px 50px 30px 50px;
+}
+.loc{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px; 
+}
+.adresse{
+    font-family: Montserrat , sans-serif;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.campus{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.trouver{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.campustexte {
+    margin-top: 30px;
+    list-style-type: square;
+}
+
+.campustexte li{
+    font-family: Montserrat , sans-serif;
+    font-size: 15px;
+    color:white;
+    margin-bottom: 10px;
+}
+.box1{
+    width: 50%;
+    height: 500px;
+    background-image: url("images/safi1.jpg");
+    float: left;
+    margin-top:-5px;
+}
+.box2{
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-color: #008AFF;
+    margin-top :-5px;
+    color: white;
+    font-family:Montserrat , sans-serif;
+}
+
+.box3{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #008AFF;
+    color: white;
+}
+.box4{
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-image: url("images/localisation.jpg");
+
+}
+
+.map{
+    width: 20px;
+    height: 20px;
+}
+footer{
+    display: flex;
+    background-color:black;
+    font-family: Montserrat;
+    color: #8f9296;
+    width: 100%;
+    height: 90px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+}
+
+.b1{
+    flex-basis: 40%;
+
+}
+.b2{
+    flex-basis: 37%;
+
+}
+.rs{
+    flex-basis: 23%;
+}
+.f{
+    width: 11.44px;
+    height: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.t{
+    width: 18.57px;
+    height: 20px;
+    margin-right: 20px;
+    
+}
+.l{
+    width: 17.15px;
+    height: 20px;
+    margin-right: 20px;
+}
+.y{
+    width: 17.15px;
+    height: 20px;
+}
+.copyright{
+    margin-top: 60px;
+}
+.support{
+    color: #337ab7;
+}
+.inscr{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.mtn{
+    flex-basis: 50%;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 0;
+}
+.inscription_footer {
+    flex-basis: 50%;
+    padding: 10px 80px 10px 80px;
+    border-radius: 30px;
+    background-color: #038DFE;
+    color : white;
+    border: none;
+    margin-right: 60px;
+}
+.form{
+    margin: 80px 400px 0px 350px;
+    padding: 20px 10px 50px 10px;
+    background-color: white;
+    border: 1px solid #038DFE;
+    border-radius: 30px;
+}
+.form input{
+    margin-top: 20px;
+    margin-left: 120px;
+    padding: 5px 50px 5px 50px;
+    border-radius: 30px;
+    border: 1px solid #038DFE;
+}
+.form h1{
+    color:#038DFE;
+    font-size: 30px;
+    margin-left: 180px;
+}
+.form button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: #038DFE;
+    color : white;
+    border: none;
+    margin-top: 30px;
+    margin-left: 190px;
+
+}
+button:hover{
+    color: black;
+    background-color: #8f9296;
+    border: none;
+}
+.entete{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.entete h1{
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+    color: white;
+}
+.e1{
+    flex-basis: 85%;
+}
+.e2{
+    flex-basis: 15%;
+}
+
+.entete button{
+    margin-right: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    background-color: #038DFE;
+    color : white;
+    border: none;
+    margin-top: 8px;
+}
+.options{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.o1{
+    flex-basis: 25%;
+}
+.o2{
+    flex-basis: 25%;
+}
+.o3{
+    flex-basis: 25%;
+}
+.o4{
+    flex-basis: 25%;
+}
+.options button{
+    border-radius: 30px;
+    background-color: #038DFE;
+    color : white;
+    border: none;
+    padding: 10px 30px;
+}
+.options img{
+    width: 10px;
+    height: 10px;
+}
+.o4 img{
+        height:2px;
+
+}
+table{
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td,th{
+      padding: 10px 20px;
+  }
+  #n{
+      margin-left: 40px;
+  }
+  .pages{
+      margin-left: 1000px;
+      margin-bottom: 50px;
+  }
+  .pages img{
+      width: 25px;
+      height: 25px;
+
+  } 
+  button a {
+      text-decoration: none;
+      color: white;
+    }
+    button a:hover {
+        
+        color:black;
+
+      }
+      
+      .ins{
+        padding: 10px 30px 10px 30px;
+        border-radius: 30px;
+        background-color: transparent;
+        border: white 2px solid;
+        color : white;
+        margin-left: 100px;
+      }
+      .decouvriracceuil{
+        padding: 15px 40px 15px 40px;
+        margin-left: 5px;
+        border-radius: 30px;
+        background-color: #038DFE;
+        color : white;
+        border: none;
+      }
+      .play{
+          width: 10px;
+          height: 10px;
+      }
+      .contaccueil {
+          display: flex;
+          width: 100%;
+          margin-top: 50px;
+          margin-bottom: 50px;
+      }
+      .contaccueil img {
+          width: 40px;
+          height: 40px;
+          margin-left:40%;
+      }
+      .contaccueil p {
+        margin-right: 20px;
+        margin-left:20px ;
+        text-align: center;
+      }
+      .contaccueil h1{
+         text-align: center;
+         margin-top: 40px;
+         margin-bottom: 40px;
+      }
+      .apprendre{
+          flex-basis: 35%;
+      }
+      .innovante{
+        flex-basis: 30%;
+    }
+    .innovante img{
+        width: 20px;
+    }
+    .gratuite{
+        flex-basis: 35%;
+
+    }
+    .cont3{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+    .b4{
+    flex-basis: 50%;
+     width: 50%;
+      height: 500px;
+    }
+    
+    .b5{
+        flex-basis: 50%;
+        background-color: #008AFF;
+        color: white;
+        }
+    .b5 h1{
+        text-align: center;
+        margin-top:80px ;
+        margin-bottom: 40px;
+    }
+    .pp{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .pp2{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 14px;
+        line-height: 1.7;
+        text-align: center;
+    }
+    .simplon {
+        background-image: url("images/Cap.PNG");
+        width: 100%;
+        height: 400px;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+    }
+ 
+   .simp{
+    margin-left: 500px;
+    margin-top: 200px;
+    color: #008AFF;
+   }
+
+.cont4{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #038DFE;
+    color: white;
+    text-align: center;
+}
+.cont4 div{
+    flex-basis: 33.33%;
+}
+.cont4 div h1{
+    text-align: center;
+    font-size: 48px;
+}
+.cont4 div p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 23px;
+    font-style: normal !important;
+}
+.b7{
+    border-right:1px dashed #000000;
+    border-left: 1px dashed #000000;
+    height: 200px;
+    margin-top: 16px;
+}
+.par{
+    color: #8f9296;
+    margin-top: 100px;
+    margin-left: 20px;
+    line-height: 1.7;
+}
+.cree{
+    margin-top: 200px;
+    margin-left: 370px;
+    font-size: 40px;
+}
+.ocp{
+    margin-left: 45%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 100px;
+}
+.loc{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.photolocal {
+    flex-basis: 50%;
+
+}
+.photolocal img{
+    width : 80%;
+    height: 350px;
+}
+.localisation {
+    flex-basis: 50%;
+}
+.localisation img {
+    width: 30px;
+    height :30px;
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    position: relative;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+table img{
+    width: 20px;
+    margin-right: 50px;
+}
+.img1{
+    margin-left: 50px;
+}
+.tr{
+    height: 20vh;;
+}
+.boton{
+    background-color: #038DFE;
+    margin-left: 90px;
+   height: 40px;
+ border-radius:30% ;
+ color: aliceblue;
+}
